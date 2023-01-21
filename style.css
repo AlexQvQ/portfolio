@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@font-face {
+	font-family: 'Minecraftia'; 
+	src: local('Minecraftia'),
+		url(./Minecraftia-Regular.ttf); 
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: linear-gradient(90deg, #FF3D3D, #FFA24D, #FF3D3D);
+	background-size: 400% 400%;
+    background-repeat: repeat;
+	animation: gradient 100s cubic-bezier(0.32, 0.26, 0.7, 0.74) infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: center;
+	}
+	25% {
+		background-position: 100vw 0;
+	}
+	50% {
+		background-position: 200vw 0;
+	}
+    75%{
+        background-position: 100vw 0;
+    } 
+    100%{
+        background-position: center;
+    }
+}
+.header-div{
+    width: 100%;
+    height: 100vh;
+    background: url('./img/Group\ 1.svg');
+    background-size: contain;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: space-between;
+    background-position: center;
+    animation: gradient 100s cubic-bezier(0.32, 0.26, 0.7, 0.74) infinite;
+}
+header img{
+    width: 50vw;
+    height: 100%;
+    overflow: hidden;
+}
+.header-text{
+    width: 50vw;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    margin: 17% 0 0 7vw;
+}
+header p{
+    font-size: 100px;
+    -webkit-text-stroke: black 5px;
+    font-weight: 4000;
+}
+header h1{
+    font-size: 48px;
+    -webkit-text-stroke: black 2px;
+}
+.AboutMe{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    padding: 5vh 0;
+}
+.AboutMe h2{
+    font-size: 32px;
+    font-family: 'Press Start 2P', cursive;
+}
+.AboutMe-content{
+    display:flex;
+    justify-content: space-between;
+    height: 90vh;
+    padding: 0 8vw;
+
+}
+.AboutMe-text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50vw;
+}
+.yo{
+    font-family: 'Minecraftia';
+    font-size: 20px;
+    margin-top: 5vh;
+}
+.OMGAboutMe{
+    width: 30vw;
+    height: 90vh;
+    background: linear-gradient(90deg, #FF3D3D, #FFA24D, #FF3D3D);
+	background-size: 400% 400%;
+    background-repeat: repeat;
+	animation: gradient 100s cubic-bezier(0.32, 0.26, 0.7, 0.74) infinite;
+}
+.contacts div{
+    display: flex;
+    align-items: flex-end;
+    font-size: 25px;
+    font-family: 'Press Start 2P', cursive;
+    margin: 0.5vh 0;
+
+}
+.contacts div img{
+    margin: 3px;
+    height: 50px;
+    width: auto;
+}
+.oh_Hi{
+    width: 100%;
+    height: 100%;
+    background: url('./img/Group\ 3.png');
+    background-size: 90vh;
+    background-position: center;
+    background-repeat: repeat-x;
+    animation: gradient 100s infinite cubic-bezier(0.32, 0.26, 0.7, 0.74);
+}
+.ICanNotDoAnything{
+    background-color: black;
+    color: white;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+}
+.ICanNotDoAnything h2{
+    margin-left: 8vw;
+    margin-bottom: 10vh;
+    font-family: 'Press Start 2P', cursive;
+    width: 90vw;
+}
+.container{
+    display: flex;
+    padding-bottom: 4vh;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.clock{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7vh;
+    font-size: 23px;
+    font-family: 'Minecraftia';
+    width: 250px;
+    align-items: center;
+    text-align: center;
+}
+.clock p{
+    margin-top: 1vh;
+}
+.clock:last-child{
+    margin: 0;
+}
+.IAmNotACool{
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.clock img{
+    width: 120px;
+    height: 120px;
+}
+.wow{
+    width: 49vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.polosky{
+    height: 20vh;
+    font-family: 'Press Start 2P', cursive;
+}
+.poloska{
+    display: flex;
+    margin-bottom: 3vh;
+    align-items: center;
+}
+.poloska p{
+    font-size: 20px;
+}
+.n{
+    width: 80px;
+}
+.hiiii{
+    background-color: #FF3D3D;
+    width: 250px;
+    height: 25px;
+}
+.byeeee{
+    background-color: rgb(48, 48, 48);
+    width: 250px;
+    height: 25px;
+}
+.helps{
+    display: flex;
+    margin-left: 1vh;
+}
+@keyframes gradienttwo {
+	0% {
+		background-position: bottom;
+	}
+	25% {
+		background-position: 5vh 3vw;
+	}
+	50% {
+		background-position: 10vh 6vw;
+	}
+    75%{
+        background-position: 5vh 3vw;
+    } 
+    100%{
+        background-position: bottom;
+    }
+}
+.OMGICanNot{
+    width: 41vw;
+    height: 40vh;
+    background: linear-gradient(90deg, #FF3D3D, #FFA24D, #FF3D3D);
+	background-size: 50000% 50000%;
+    background-repeat: repeat;
+	animation: gradient 100s ease infinite cubic-bezier(0.32, 0.26, 0.7, 0.74);
+    margin-bottom: 0vh;
+    display: flex;
+}
+.OOMG{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: url(./img/Group\ 22.png);
+    background-size: 90vh;
+    background-repeat: repeat;
+    /* background-position: bottom; */
+    animation: gradienttwo 50s cubic-bezier(0.32, 0.26, 0.7, 0.74) infinite;
+}
+.procent{
+    position: relative;
+    top: -1vh;
+    right: 1vw;
+    font-size: 20px;
+    width: 45px;
+}
+@keyframes rrr{
+    0%{
+        transform: rotate(0);
+    } 25%{
+        transform: rotate(-10deg);
+    } 75%{
+        transform: rotate(25deg);
+    } 100%{
+        transform: rotate(0);
+    }
+}
+@keyframes lll{
+    0%{
+        transform: rotate(0);
+    } 25%{
+        transform: rotate(30deg);
+    } 60%{
+        transform: rotate(-30deg);
+    }100%{
+        transform: rotate(0deg);
+    }
+}
+.rrr, .lll{
+    width: 20%;
+    height: 30%;
+    margin-top: 4%;
+}
+.rrr{
+    animation: lll 10s infinite cubic-bezier(0.32, 0.26, 0.7, 0.74);
+}
+.lll{
+    animation: rrr 10s infinite cubic-bezier(0.32, 0.26, 0.7, 0.74);
+}
+@keyframes money{
+    0%{
+        transform: rotate(0);
+    } 25%{
+        transform: rotate(5deg);
+    } 50%{
+        transform: rotate(0deg);
+    }75%{
+        transform: rotate(-5deg);
+    }100%{
+        transform: rotate(0);
+    }
+}
+.iwantmoney{
+    width: 70%;
+    height: 40%;
+    animation: money 10s infinite cubic-bezier(0.32, 0.26, 0.7, 0.74);
+    margin-top: 4%;
+}
+#a{
+    width: 200px;
+}
+#b{
+    width: 300px;
+}
+#x{
+    width: 50px;
+}
+#y{
+    width: 450px;
+}
+#x{
+    width: 50px;
+}
+#y{
+    width: 450px;
+}
+#p{
+    width: 30px;
+}
+#o{
+    width: 470px;
+}
+.block-1{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+}
